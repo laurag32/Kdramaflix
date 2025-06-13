@@ -2,71 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KDramaFlix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="53bb00649398b3cfb3223c753977f4126ef54a2f" content="53bb00649398b3cfb3223c753977f4126ef54a2f" />
+  <title>FlixMovies | KDrama Hub</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
       background-color: #000;
-      color: #fff;
-      font-family: 'Arial', sans-serif;
+      color: white;
       text-align: center;
+      padding: 20px;
     }
-    header {
-      padding: 30px 10px 10px;
+    h1 {
       font-size: 2em;
-      font-weight: bold;
+      margin-bottom: 20px;
     }
-    .poster {
-      max-width: 90%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+    p {
+      font-size: 1.1em;
       margin: 20px 0;
     }
-    .description {
-      font-size: 1.1em;
-      margin: 20px auto;
-      width: 90%;
-      max-width: 500px;
-    }
     .button {
-      background-color: #ff3366;
-      color: #fff;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 30px;
-      font-size: 1.1em;
-      margin: 20px 10px;
-      cursor: pointer;
-      text-decoration: none;
       display: inline-block;
-      transition: background 0.3s ease;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #ff3366;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1em;
+      transition: 0.3s;
     }
     .button:hover {
-      background-color: #e62e5c;
+      background: #ff6688;
     }
     footer {
       margin-top: 40px;
+      color: #aaa;
       font-size: 0.9em;
-      color: #777;
     }
   </style>
 </head>
 <body>
 
-  <header>🎬 KDramaFlix</header>
+  <h1>🎬 FlixMovies - KDrama Central</h1>
 
-  <img class="poster" src="https://i.imgur.com/kvOekd1.jpeg" alt="K-Drama Poster">
+  <!-- KDrama Poster -->
+  <img src="https://i.imgur.com/E8aKIC9.jpeg" alt="KDrama Poster">
 
-  <div class="description">
-    Dive into the best Korean dramas, all in one place. Tap below to join our exclusive Telegram channel and start watching instantly!
-  </div>
+  <!-- Description -->
+  <p>Welcome to your one-stop KDrama corner. Stream romantic, thrilling, and unforgettable series daily! 🌸</p>
 
-  <a class="button" href="https://t.me/+UI7HWeHHFytjMjNk" target="_blank">📲 Join Now on Telegram</a>
+  <!-- Telegram Join Button -->
+  <a href="https://t.me/+UI7HWeHHFytjMjNk" class="button">📲 Join Our Telegram Channel</a>
 
-  <footer>© 2025 KDramaFlix</footer>
+  <footer>Powered by FlixMovies</footer>
 
 </body>
 </html>
